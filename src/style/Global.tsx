@@ -17,7 +17,14 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'MyWebFont';
   }
   body {
-    background-color: ${({ theme }) => theme.colors.background};
+    background-image: url('/images/egg/farm1.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+    
 
     img {
       height: auto;

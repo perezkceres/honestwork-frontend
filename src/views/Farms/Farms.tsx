@@ -110,17 +110,22 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       </Heading>
     
     
-      <Flex flexDirection="row" mb="35px">
+     
       <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
         Farms and Pools allocPoints and EmissionPerBlock are following a distribuition modulated by functions based on the fibonnacci sequence
       </Heading>
       
-      <LinkExternal mb="5px" 
+      
+        
+          <Flex flexDirection="row" mb="35px">
+          <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'right' }}>
+        Check the daily apr evolution:
+      </Heading>
+          <LinkExternal mb="5px" 
 style={{ textAlign: 'center' }} small href="https://honestwork.gitbook.io/honestwork-farms/farms-pools/farm-pumpamentals">
   
-          <img  width="432" src={ fib } alt="fib"/>
+          <img  width="233"  src={ fib } alt="fib"/>
           </LinkExternal>
-        
           </Flex>
           <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
         Deposit Fees will be used for buy backs
