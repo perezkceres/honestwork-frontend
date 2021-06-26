@@ -108,23 +108,22 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           'Stake LP tokens to earn honest'
         }
       </Heading>
+    
+    
+      <Flex flexDirection="row" mb="35px">
       <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        50% of the Deposit Fee will be used to buyback honest and Burn the Tokens
+        Farms and Pools allocPoints and EmissionPerBlock are following a distribuition modulated by functions based on the fibonnacci sequence
       </Heading>
-      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        Burn Time: Everyday 18:33 UTC
-      </Heading>
-      <Flex flexDirection="row" mb="15px">
+      
       <LinkExternal mb="5px" 
 style={{ textAlign: 'center' }} small href="https://honestwork.gitbook.io/honestwork-farms/farms-pools/farm-pumpamentals">
-          <img  width="233" src={ fib } alt="fib"/>
+  
+          <img  width="432" src={ fib } alt="fib"/>
           </LinkExternal>
-          <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        Farms and Pools are live
-      </Heading>
+        
           </Flex>
-      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        50% of the Deposit Fee will be sent to treasury wallet for Future Development 
+          <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
+        Deposit Fees will be used for buy backs
       </Heading>
     
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
