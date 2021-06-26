@@ -1,0 +1,16 @@
+{
+  "short_name": "Honest Work Protocol",
+  "name": "Honest Work",
+  "description": "Honest Work Farms - the first deflationary farm on polygon ",
+   "icons": [
+    {
+       "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "256x256"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
